@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'contributor/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'Contributor'
+  spec.name          = 'contributor'
   spec.version       = Contributor::VERSION
   spec.authors       = ['alpaca-tc']
   spec.email         = ['alpaca-tc@alpaca.tc']
